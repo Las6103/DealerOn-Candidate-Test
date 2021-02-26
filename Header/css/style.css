@@ -24,7 +24,6 @@ header {
   align-items: center;
 }
 
-
 .line {
   margin-left: 3rem;
   padding: 0.8rem 0 0.8rem 0.8rem;
@@ -71,12 +70,6 @@ header {
 
 @media (max-width: 535px) {
   html {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  html {
     font-size: 14px;
   }
 
@@ -89,7 +82,9 @@ header {
     padding: 6px;
     border: none;
   }
+}
 
+@media (max-width: 480px) {
   .chat {
     display: none;
   }
