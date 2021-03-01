@@ -16,35 +16,39 @@ header {
   font-size: 1.2rem;
 }
 
-.flex {
+.flexbox {
   display: flex;
 }
 
-.align {
+.centeritems {
   align-items: center;
 }
 
-.line {
+.infoline {
   margin-left: 3rem;
   padding: 0.8rem 0 0.8rem 0.8rem;
   border-left: 1px solid black;
 }
 
-.responsive {
+.img-responsive {
   width: 100%;
   height: auto;
   padding: 2px;
 }
 
-.logo {
+.kia-logo {
   max-width: 12.5rem;
+}
+
+.rater {
+  max-width: 2.621rem;
 }
 
 .icon {
   max-width: 2rem;
 }
 
-.chat {
+.chat-widget {
   max-width: 11.25rem;
 }
 
@@ -62,7 +66,7 @@ header {
   .header__right {
     padding-top: 8px;
   }
-  .chat {
+  .chat-widget {
     display: block;
     margin: auto;
   }
@@ -77,7 +81,7 @@ header {
     flex-direction: column;
   }
 
-  .line {
+  .infoline {
     margin: 0;
     padding: 6px;
     border: none;
@@ -85,7 +89,7 @@ header {
 }
 
 @media (max-width: 480px) {
-  .chat {
+  .chat-widget {
     display: none;
   }
 }
